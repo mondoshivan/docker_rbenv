@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+docker tag rbenv ${DOCKER_ACCOUNT}/${DOCKER_REPOSITORY}:${DOCKER_IMAGE_VERSION}
+docker push ${DOCKER_ACCOUNT}/${DOCKER_REPOSITORY}:${DOCKER_IMAGE_VERSION}
